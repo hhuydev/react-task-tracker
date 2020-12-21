@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/reset.css">
+    <title>Document</title>
+</head>
+<style>
+    ul{
+        display: none;
+    }
+    input:focus ~ul{
+        display: block;
+    }
+</style>
+<body>
+    <!-- Prevent Default -->
+        <!-- Dùng để ngăn chặn hành vi mặc định các element -->
+    <a href="https://www.google.com/">google</a>
+    <br>
+    <a href="https://medium.com/">medium</a>  
+    <!-- Ví dụ: khi ấn vào thẻ a dẫn đến medium làm cho không hoạt động -->
+    <br>
+    <input type="text" placeholder="abc">
+    <ul>
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+
+    </ul>
+
+    <!-- Stop Propagation -->
+        <!-- Ngăn sự kiện nổi bọt -->
+        <!-- Ngăn không cho nó gọi Element khác ngoài nó -->
+    <div class="" onclick="console.log('Huy')">
+        Huy
+        <h1 onclick="console.log('HELLO')">hello</h1>
+        <h3 onclick="console.log('222')">222</h3>
+    </div>
+</body>
+<script>
+    //Ví dụ Prevent Default
+    //Ví dụ 1:
+    let aPreventDefault = document.querySelectorAll('a');
+    for(let i=0;i<aPreventDefault.length;++i){
+        
+        aPreventDefault[i].onclick = (e) =>{
+            console.log(e.target)
+            if(e.target.href.startsWith('https://medium.com/')){
+                e.preventDefault();
+            }
+        }
+    }
+
+    //Ví dụ 2: Click vào các thẻ li khi focus vào input
+    let ulPreventDefault = document.querySelector('ul')
+    ulPreventDefault.onmousedown = (e)=>{
+        e.preventDefault();
+    }
+    ulPreventDefault.onclick = (e)=>{
+       console.log(e.target);
+    }
+
+    //Ví dụ: Stop Propagation
+    let h1StopPaganation = document.querySelector('div h1')
+    
+    h1StopPaganation.onclick = (e)=>{
+        e.stopPropagation()
+       console.log('h1');
+    }
+
+    let h3StopPaganation = document.querySelector('div h3')
+    
+    h3StopPaganation.onclick = (e)=>{
+        e.stopPropagation()
+       console.log('h3');
+    }
+</script>
+</html>

@@ -1,0 +1,1814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <link rel="stylesheet" href="./dist/css/all.min.css">
+    <link rel="stylesheet" href="./dist/css/reset.css">
+    <link rel="stylesheet" href="./dist/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./dist/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Final Project</title>
+</head>
+
+<body>
+    <div class="top-notify-bar">
+        <div class="container ">
+            <div class="notify-bar flex j-between a-center">
+                <div class="text-left">
+                    <p>INSTANT DISCOUNT CODE 50% OFF <span>MM50</span></p>
+
+                </div>
+                <ul class="menu-right flex j-between">
+                    <li class="custom-link"><a href="">About us</a>
+                    </li>
+                    <li class="contact-us"><a href="">Contact us</a></li>
+                    <li class="user-wrap ele-wrap">
+                        <a href="" class="acc-ti" title=""><i class="far fa-user">User</i></a>
+                    </li>
+                    <li class="currency-wrap">
+                        <a href="">VND<i class="fas fa-chevron-down"></i></a>
+                        <ul class="sub-menu-currency">
+                            <li><a href="">AUD</a></li>
+                            <li><a href="">CAD</a></li>
+                            <li><a href="">DKK</a></li>
+                            <li><a href="">EUR</a></li>
+                            <li><a href="">GBP</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="container flex a-center">
+            <div class="header-left-img">
+                <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/logo_e2abf572-4917-4190-8e9c-bed56adfbc3f.png?v=1597900279"
+                    alt="">
+            </div>
+            <div class="header-search-element">
+                <div class="search-wrap">
+                    <form id="form-search-header" action="search" method="GET">
+                        <div class="form-search flex">
+                            <input id="search" type="text" placeholder="Search products, brands or advice"
+                                name="search-products">
+                            <button class="search-btn"><i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="header-right-block ">
+                <!-- <div class="container flex "> -->
+                <div class="header-right-wishlist">
+                    <a href="" class="wishlist-btn">
+                        <i class="far fa-heart"></i>
+                        <span class="wishlist-count">0</span>
+                    </a>
+                    <span class="wishlist-title">Wish list</span>
+                </div>
+
+                <div style="margin-left: 15px;" class="header-right-shoppingcart">
+                    <a href="" class="shopping-cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="shopping-count">0</span>
+                    </a>
+                    <span class="shopping-title">0 VND</span>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        <nav>
+            <div class="container flex j-between">
+                <div class="header-bottom-browser">
+                    <a href="" class="collapsed">
+                        <span>Browser Category</span>
+                        <i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="show">
+                        <li class="menu-link">
+                            <a href="" class="link-title">
+                                <div class="alink">
+                                    Sport & Outdoor
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="" class="link-title">
+                                <div class="alink">
+                                    Consumer Electtric
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="" class="link-title">
+                                <div class="alink">
+                                    Home, Garden & Kitchen
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="" class="link-title">
+                                <div class="alink">
+                                    Books & Office
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="" class="link-title">
+                                <div class="alink">
+                                    Phone & Accessories
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="" class="link-title">
+                                <div class="alink">
+                                    Babies & Mom
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="" class="link-title">
+                                <div class="alink">
+                                    Hand made
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="" class="link-title">
+                                <div class="alink">
+                                    Computer & Technologies
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="" class="link-title">
+                                <div class="alink">
+                                    Jwelery & Watches
+                                </div>
+                            </a>
+                        </li>
+                        <li class="menu-link">
+                            <a href="" class="link-title">
+                                <div class="alink">
+                                    Heath & Beauty
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header-bottom-menu">
+                    <ul class="main-menu">
+                        <li class="menu-link parant">
+                            <!-- <a class="link-title" href="">
+                                <span>Home</span>
+                                <i class="ti-angle-down"></i>
+                            </a> -->
+                            <a data-toggle="collapse" href="#collapse-Home" class="link-title link-title-lg">
+                                <span>Home</span>
+                                <i class="fas fa-angle-down"></i>
+
+                            </a>
+                            <ul class="dropdown-submenu collapse" id="collapse-Home">
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?fts=0&preview_theme_id=97106690184"
+                                        class="sublink-title">Home 01</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=2&preview_theme_id=97121992840"
+                                        class="sublink-title">Home 01 (BOX)</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=1&preview_theme_id=97121927304"
+                                        class="sublink-title">Home 01 (RTL)</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=2&amp;preview_theme_id=86369534088"
+                                        class="sublink-title">Home 02</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=2&preview_theme_id=97091682440"
+                                        class="sublink-title">Home 02 (BOX)</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=2&preview_theme_id=97091649672"
+                                        class="sublink-title">Home 02 (RTL)</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=1&amp;preview_theme_id=96755712136"
+                                        class="sublink-title">Home 03</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=1&preview_theme_id=97091616904"
+                                        class="sublink-title">Home 03 (BOX)</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=1&preview_theme_id=97091584136"
+                                        class="sublink-title">Home 03 (RTL)</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=4&preview_theme_id=97127923848"
+                                        class="sublink-title">Home 04</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=4&preview_theme_id=97137623176"
+                                        class="sublink-title">Home 04 (BOX)</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/?home=4&preview_theme_id=97137655944"
+                                        class="sublink-title">Home 04 (RTL)</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-link parant">
+                            <a class="link-title" href="#">
+                                <span>Shop</span>
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-submenu collapse  " id="collapse-Shop">
+                                <div class="flex">
+                                    <li class="megamenu-li parant">
+                                        <!-- <h2 class="sublink-title">Tablate</h2> -->
+                                        <a data-toggle="collapse" href="" class="sublink-title">
+                                            <span>Tablate</span>
+                                        </a>
+                                        <ul class="dropdown-supmenu collapse" id="collapse-Tablate">
+                                            <li class="submenu-li">
+                                                <a href="" class="suplink-title">Samsung Tablate
+                                                </a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="" class="suplink-title">Apple Watch</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="" class="suplink-title">Bravia LED</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="" class="suplink-title">Mi Earphone 5</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="" class="suplink-title">Women Top</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="" class="suplink-title">Electronic</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="" class="suplink-title">Rayban
+                                                    Glass</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="megamenu-li parant">
+                                        <!-- <h2 class="sublink-title">Home TV</h2> -->
+                                        <a data-toggle="collapse" href="#collapse-Home-TV" class="sublink-title">
+                                            <span>Home TV</span>
+                                        </a>
+                                        <ul class="dropdown-supmenu collapse" id="collapse-Home-TV">
+
+                                            <li class="submenu-li">
+                                                <a href="/products/apple-iwatch-10" class="suplink-title">Sony
+                                                    Camera</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/enthick-shoes-forwomen" class="suplink-title">Home
+                                                    Theater</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/children-formal-shirt" class="suplink-title">Classsic
+                                                    Mouse</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/portable-speker" class="suplink-title">Bravia Sea
+                                                    world
+                                                    Tv</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/bantch-blazar-hint" class="suplink-title">Portable
+                                                    Speaker</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/girls-night-cotton" class="suplink-title">Air
+                                                    Drone</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/portable-speker" class="suplink-title">Portable
+                                                    Speker</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="megamenu-li parant">
+                                        <!-- <h2 class="sublink-title">Mobile Phone</h2> -->
+                                        <a data-toggle="collapse" href="#collapse-Mobile-Phone" class="sublink-title">
+                                            <span>Mobile Phone</span>
+                                        </a>
+                                        <ul class="dropdown-supmenu collapse" id="collapse-Mobile-Phone">
+
+                                            <li class="submenu-li">
+                                                <a href="/products/bjtyibmfof-top" class="suplink-title">Watch</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/bjtyibmfof-top" class="suplink-title">Shoes</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/children-formal-shirt"
+                                                    class="suplink-title">Furniture</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/portable-speker" class="suplink-title">Jewellry</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/children-formal-shirt"
+                                                    class="suplink-title">Clothe</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/women-crop-top" class="suplink-title">Brown Bag</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/enthick-shoes-forwomen" class="suplink-title">Night
+                                                    Wear
+                                                    Top</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                    <li class="megamenu-li parant">
+                                        <!-- <h2 class="sublink-title">Computer & Accessories</h2> -->
+                                        <a data-toggle="collapse" href="#collapse-Computer-&-Accessories"
+                                            class="sublink-title">
+                                            <span>Computer & Accessories</span>
+                                        </a>
+                                        <ul class="dropdown-supmenu collapse" id="collapse-Computer-&-Accessories">
+
+                                            <li class="submenu-li">
+                                                <a href="/products/headphone-pro10" class="suplink-title">Headphone
+                                                    Pro10</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/sony-brand-camera" class="suplink-title">Sony Brand
+                                                    Camera</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/girls-night-cotton" class="suplink-title">Egestas
+                                                    Glass</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/hmd-colection-watch" class="suplink-title">Rayban
+                                                    Glass</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/exclusive-zacket" class="suplink-title">The Regan
+                                                    Boot in
+                                                    Suede</a>
+                                            </li>
+
+                                            <li class="submenu-li">
+                                                <a href="/products/portable-speker" class="suplink-title">Portable
+                                                    speker</a>
+                                            </li>
+
+                                        </ul>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="menu-link parant">
+                            <!-- <a class="link-title" href="/collections">
+                                <span>Collections</span>
+                                                        <i class="fas fa-angle-down"></i>
+
+                            </a> -->
+                            <a data-toggle="collapse" href="#collapse-Collections" class="link-title link-title-lg">
+                                <span>Collections</span>
+                                <i class="fas fa-angle-down"></i>
+
+                            </a>
+                            <ul class="dropdown-submenu collapse flex" id="collapse-Collections">
+                                <div class="flex">
+                                    <li class="menu-banner">
+                                        <a href="/collections/menu-banner">
+                                            <img
+                                                src="//cdn.shopify.com/s/files/1/0318/4335/2712/collections/banner1.jpg?v=1591622158">
+                                            <span>Shop home appliances</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="menu-banner">
+                                        <a href="/collections/shop-audiable-audio">
+                                            <img
+                                                src="//cdn.shopify.com/s/files/1/0318/4335/2712/collections/2.jpg?v=1591622189">
+                                            <span>Shop Audiable Audio</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="menu-banner">
+                                        <a href="/collections/shop-smart-tv">
+                                            <img
+                                                src="//cdn.shopify.com/s/files/1/0318/4335/2712/collections/4.jpg?v=1591622225">
+                                            <span>Shop Smart TV</span>
+                                        </a>
+                                    </li>
+
+                                    <li class="menu-banner">
+                                        <a href="/collections/shop-smart-tablate">
+                                            <img
+                                                src="//cdn.shopify.com/s/files/1/0318/4335/2712/collections/3.jpg?v=1591622206">
+                                            <span>Shop Smart Tablate</span>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="menu-link parant">
+                            <!-- <a class="link-title" href="/products/children-formal-shirt">
+                              <span>Products</span>
+                                                      <i class="fas fa-angle-down"></i>
+
+                            </a> -->
+                            <a data-toggle="collapse" href="#collapse-Products" class="link-title link-title-lg">
+                                <span>Products</span>
+                                <i class="fas fa-angle-down"></i>
+
+                            </a>
+                            <ul class="dropdown-submenu collapse" id="collapse-Products">
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/products/exclusive-zacket?preview_theme_id=96755712136"
+                                        class="sublink-title">Default</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/products/bjtyibmfof-top?preview_theme_id=97137623176"
+                                        class="sublink-title">Centered</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/products/apple-iwatch-10?preview_theme_id=86369534088"
+                                        class="sublink-title">Left Thumbnail</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/products/loung-chairs?preview_theme_id=97127923848"
+                                        class="sublink-title">Products Boxed</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/products/girls-night-cotton?preview_theme_id=97106690184"
+                                        class="sublink-title">With sidebar</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/products/apple-iwatch-10?preview_theme_id=96755712136"
+                                        class="sublink-title">Product External / Affiliate</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/products/sony-brand-camera?preview_theme_id=96755712136"
+                                        class="sublink-title">Disable default variant</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/products/apple-iwatch-10?preview_theme_id=97106690184"
+                                        class="sublink-title">Extra content #1</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/products/bjtyibmfof-top?preview_theme_id=97127923848"
+                                        class="sublink-title">Sticky add to cart</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="menu-link parant">
+                            <!-- <a class="link-title" href="/blogs/news">
+                                <span>Blogs</span>
+                                                        <i class="fas fa-angle-down"></i>
+
+                            </a> -->
+                            <a data-toggle="collapse" href="#collapse-Blogs" class="link-title link-title-lg">
+                                <span>Blogs</span>
+                                <i class="fas fa-angle-down"></i>
+
+                            </a>
+                            <ul class="dropdown-submenu collapse" id="collapse-Blogs">
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/blogs/news?preview_theme_id=86369534088"
+                                        class="sublink-title">Standard Without Sidebar</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/blogs/news?preview_theme_id=97106690184"
+                                        class="sublink-title">Standard With Left Sidebar</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/blogs/news?preview_theme_id=97121992840"
+                                        class="sublink-title">Standard With Right Sidebar</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/blogs/news?preview_theme_id=97137623176"
+                                        class="sublink-title">Two Gride</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="https://beststoreshopforyou.myshopify.com/blogs/news?preview_theme_id=97127923848"
+                                        class="sublink-title">Three Gride</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="menu-link parant">
+                            <!-- <a class="link-title" href="#">
+                                <span>pages</span>
+                                                        <i class="fas fa-angle-down"></i>
+                            </a> -->
+                            <a data-toggle="collapse" href="#collapse-pages" class="link-title link-title-lg">
+                                <span>Pages</span>
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                            <ul class="dropdown-submenu collapse" id="collapse-pages">
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/about-us" class="sublink-title">About us</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/contact-us" class="sublink-title">Contact us</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/faqs" class="sublink-title">FAQ's</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/payment-policy" class="sublink-title">Payment Policy</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/view-details-return-policy" class="sublink-title">Return Policy</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/shipping-policy" class="sublink-title">Shipping Policy</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/sitemap-1" class="sublink-title">Sitemap</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/terms-condition" class="sublink-title">Terms & Condition</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/privacy-policy" class="sublink-title">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-link parant">
+                            <!-- <a class="link-title" href="#">
+                                <span>pages</span>
+                                                        <i class="fas fa-angle-down"></i>
+                            </a> -->
+                            <a data-toggle="collapse" href="#collapse-pages" class="link-title link-title-lg">
+                                <span>Buy Buesto</span>
+                            </a>
+                            <span class="hot">HOT</span>
+                            <!-- <ul class="dropdown-submenu collapse" id="collapse-pages">
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/about-us" class="sublink-title">About us</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/contact-us" class="sublink-title">Contact us</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/faqs" class="sublink-title">FAQ's</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/payment-policy" class="sublink-title">Payment Policy</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/view-details-return-policy" class="sublink-title">Return Policy</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/shipping-policy" class="sublink-title">Shipping Policy</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/sitemap-1" class="sublink-title">Sitemap</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/terms-condition" class="sublink-title">Terms & Condition</a>
+                                </li>
+
+                                <li class="submenu-li parant">
+                                    <a href="/pages/privacy-policy" class="sublink-title">Privacy Policy</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="header-bottom-contact">
+                    <a href="">
+                        <span>CALL US: <b>1900-6789</b></span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="slider owl-carousel owl-theme" id="banner-slide">
+        <div class="item">
+            <div class="slide-img"
+                style="background-image: url('https://cdn.shopify.com/s/files/1/0318/4335/2712/files/slider6_5779a51a-a2a1-4835-b11a-ec8db9cb9ba4.jpg?v=1602334277%27');">
+            </div>
+            <div class="item-content">
+                <span style="color: #f20000;" class="label1">Don't Miss Out!</span>
+                <h1 style="color: #333333;" class="title1">Huwei MateBook X Pro</h1>
+                <span style="color: #333333;" class="label2">Borderless Experience</span>
+                <h2 style="color: #333333;" class="title2">Start From $540</h2>
+                <a href="" class="shopnow">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="slide-img"
+                style="background-image: url('https://cdn.shopify.com/s/files/1/0318/4335/2712/files/slider5_4b1ec02a-0cc4-4683-bd3d-9e8efcdc6269.jpg?v=1602334499');">
+            </div>
+            <div class="item-content">
+                <span style="color: #f20000;" class="label1">Wome Cloths & Accessories</span>
+                <h1 style="color: #333333;" class="title1">Tie Dye Georgette <br>Tiered Dress</h1>
+                <span style="color: #333333;" class="label2"></span>
+                <h2 style="color: #333333;" class="title2">Start From $540</h2>
+                <a href="" class="shopnow">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="slide-img"
+                style="background-image: url('https://cdn.shopify.com/s/files/1/0318/4335/2712/files/slider7_daf9dd4d-c048-4793-ab47-327cc5095902.jpg?v=1602334706');">
+            </div>
+            <div class="item-content">
+                <span style="color: #f20000;" class="label1">Summer sale 2020</span>
+                <h1 style="color: #333333;" class="title1">Double Collection <br> Cloths & Electro</h1>
+                <span style="color: #333333;" class="label2">Big Discount</span>
+                <h2 style="color: #333333;" class="title2">Sale 30% Off</h2>
+                <a href="" class="shopnow">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-grid-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="section-banner-left">
+                        <div class="banner-left">
+                            <div class="banner-img">
+                                <a class="a-img" href=""><img
+                                        src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/banner11.jpg?v=1598272198"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div class="banner-content">
+                                <p>Fresh Food</p>
+                                <h3>CHAIR COLLECTION</h3>
+                                <a class="shopnow">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="features-collection" id="">
+                        <div class="collection-title">
+                            <h2>Features Collection</h2>
+                        </div>
+                        <div class="swipper-slide-product">
+                            <div class="swipper-slide-img flex j-between ">
+                                <div class="left-img">
+                                    <a class="img-item" href="">
+                                        <img class="img-one"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                            alt="">
+                                        <img class="img-two"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/23_a960ad93-810b-4514-93be-318a75d1e6dd_390X468_crop_center.jpg?v=1597496562"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div style="margin-bottom: 10px;" class="product-content">
+                                    <a class="img-item" href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <div class="left-img">
+                                    <a class="img-item" href="">
+                                        <img class="img-one"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/9_972bc655-f7bf-4fd0-8e56-b2d53796642c_390X468_crop_center.jpg?v=1591452486"
+                                            alt="">
+                                        <img class="img-two"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/9_972bc655-f7bf-4fd0-8e56-b2d53796642c_390X468_crop_center.jpg?v=1591452486"
+                                            alt="">
+                                    </a>
+                                </div>
+
+                                <div style="margin-top: -20px;" class="product-content">
+                                    <a style="display: inline-block; margin-top: 20px;">Sony Brand Camera</a>
+                                    <div class="vote-star flex j-between">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <div class="left-img">
+                                    <a class="img-item" href="">
+                                        <img class="img-one"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/22_1c0673e1-abf9-4408-8625-8bb070cb093e_390X468_crop_center.jpg?v=1597496542"
+                                            alt="">
+                                        <img style="bottom: -20px;" class="img-two"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/24_ab87b6ce-85cb-412d-8c84-d890cf2ab901_390X468_crop_center.jpg?v=1597496542"
+                                            alt="">
+                                    </a>
+                                </div>
+
+                                <div class="product-content">
+                                    <a href="">Smockstick Stand</a>
+
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.043.121 VND
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="swipper-slide-img flex j-between ">
+                                <a href="">
+                                    <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                        alt="">
+                                </a>
+                                <div class="product-content">
+                                    <a href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <a href="">
+                                    <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                        alt="">
+                                </a>
+                                <div class="product-content">
+                                    <a href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <a href="">
+                                    <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                        alt="">
+                                </a>
+                                <div class="product-content">
+                                    <a href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="reviews-area">
+
+                        <h2 class="title">
+                            Customers Reviews
+                        </h2>
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="render-reviews owl-carousel owl-theme" id="render-reviews">
+
+                            <div class="reviews-content">
+                                <h4>“Friendly Support”</h4>
+                                <div class="contents">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text printing and typesetting industry
+                                    </p>
+                                </div>
+                                <div class="author-name">
+                                    <h4>louis fonsi</h4>
+                                </div>
+                            </div>
+                            <div class="reviews-content">
+                                <h4>“Friendly Support”</h4>
+                                <div class="contents">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text printing and typesetting industry
+                                    </p>
+                                </div>
+                                <div class="author-name">
+                                    <h4>louis fonsi</h4>
+                                </div>
+                            </div>
+                            <div class="reviews-content">
+                                <h4>“Friendly Support”</h4>
+                                <div class="contents">
+                                    <p>
+                                        Lorem Ipsum is simply dummy text printing and typesetting industry
+                                    </p>
+                                </div>
+                                <div class="author-name">
+                                    <h4>louis fonsi</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="features-collection" id="">
+                        <div class="collection-title">
+                            <h2>New Products</h2>
+                        </div>
+                        <div class="swipper-slide-product">
+                            <div class="swipper-slide-img flex j-between ">
+                                <div class="left-img">
+                                    <a class="img-item" href="">
+                                        <img class="img-one"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                            alt="">
+                                        <img class="img-two"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/23_a960ad93-810b-4514-93be-318a75d1e6dd_390X468_crop_center.jpg?v=1597496562"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div style="margin-bottom: 10px;" class="product-content">
+                                    <a class="img-item" href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <div class="left-img">
+                                    <a class="img-item" href="">
+                                        <img class="img-one"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/9_972bc655-f7bf-4fd0-8e56-b2d53796642c_390X468_crop_center.jpg?v=1591452486"
+                                            alt="">
+                                        <img class="img-two"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/9_972bc655-f7bf-4fd0-8e56-b2d53796642c_390X468_crop_center.jpg?v=1591452486"
+                                            alt="">
+                                    </a>
+                                </div>
+
+                                <div style="margin-top: -20px;" class="product-content">
+                                    <a style="display: inline-block; margin-top: 20px;">Sony Brand Camera</a>
+                                    <div class="vote-star flex j-between">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <div class="left-img">
+                                    <a class="img-item" href="">
+                                        <img class="img-one"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/22_1c0673e1-abf9-4408-8625-8bb070cb093e_390X468_crop_center.jpg?v=1597496542"
+                                            alt="">
+                                        <img style="bottom: -10px;" class="img-two"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/24_ab87b6ce-85cb-412d-8c84-d890cf2ab901_390X468_crop_center.jpg?v=1597496542"
+                                            alt="">
+                                    </a>
+                                </div>
+
+                                <div style="margin-top: 10px;" class="product-content">
+                                    <a href="">Smockstick Stand</a>
+
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.043.121 VND
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="swipper-slide-img flex j-between ">
+                                <a href="">
+                                    <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                        alt="">
+                                </a>
+                                <div class="product-content">
+                                    <a href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <a href="">
+                                    <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                        alt="">
+                                </a>
+                                <div class="product-content">
+                                    <a href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <a href="">
+                                    <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                        alt="">
+                                </a>
+                                <div class="product-content">
+                                    <a href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 50px;" class="section-banner-left">
+                        <div class="banner-left">
+                            <div class="banner-img">
+                                <a class="a-img" href=""><img
+                                        src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/banner6_688a4263-da4b-48ae-917a-868ebcc3377f.jpg?v=1591367767"
+                                        alt="">
+                                </a>
+                            </div>
+                            <div style="top: 30px; left: 20px; " class="banner-content">
+                                <p style="color: #fff; font-size: 17px; padding: 10px 0;">Headphone</p>
+                                <h3 style="color: #fff; font-size: 20px;">24h Bettery <br> Backup</h3>
+                                <a href="shopnow">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="features-collection" id="">
+                        <div class="collection-title">
+                            <h2>Special Products</h2>
+                        </div>
+                        <div class="swipper-slide-product">
+                            <div class="swipper-slide-img flex j-between ">
+                                <div class="left-img">
+                                    <a class="img-item" href="">
+                                        <img class="img-one"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                            alt="">
+                                        <img class="img-two"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/23_a960ad93-810b-4514-93be-318a75d1e6dd_390X468_crop_center.jpg?v=1597496562"
+                                            alt="">
+                                    </a>
+                                </div>
+                                <div style="margin-bottom: 10px;" class="product-content">
+                                    <a class="img-item" href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <div class="left-img">
+                                    <a class="img-item" href="">
+                                        <img class="img-one"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/9_972bc655-f7bf-4fd0-8e56-b2d53796642c_390X468_crop_center.jpg?v=1591452486"
+                                            alt="">
+                                        <img class="img-two"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/9_972bc655-f7bf-4fd0-8e56-b2d53796642c_390X468_crop_center.jpg?v=1591452486"
+                                            alt="">
+                                    </a>
+                                </div>
+
+                                <div style="margin-top: -20px;" class="product-content">
+                                    <a style="display: inline-block; margin-top: 20px;">Sony Brand Camera</a>
+                                    <div class="vote-star flex j-between">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <div class="left-img">
+                                    <a class="img-item" href="">
+                                        <img class="img-one"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/22_1c0673e1-abf9-4408-8625-8bb070cb093e_390X468_crop_center.jpg?v=1597496542"
+                                            alt="">
+                                        <img style="bottom: -20px;" class="img-two"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/24_ab87b6ce-85cb-412d-8c84-d890cf2ab901_390X468_crop_center.jpg?v=1597496542"
+                                            alt="">
+                                    </a>
+                                </div>
+
+                                <div style="margin-top: 10px;" class="product-content">
+                                    <a href="">Smockstick Stand</a>
+
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.043.121 VND
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <div class="left-img">
+                                    <a class="img-item" href="">
+                                        <img class="img-one"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/9_972bc655-f7bf-4fd0-8e56-b2d53796642c_390X468_crop_center.jpg?v=1591452486"
+                                            alt="">
+                                        <img class="img-two"
+                                            src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/9_972bc655-f7bf-4fd0-8e56-b2d53796642c_390X468_crop_center.jpg?v=1591452486"
+                                            alt="">
+                                    </a>
+                                </div>
+
+                                <div style="margin-top: -20px;" class="product-content">
+                                    <a style="display: inline-block; margin-top: 20px;">Sony Brand Camera</a>
+                                    <div class="vote-star flex j-between">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="swipper-slide-img flex j-between ">
+                                <a href="">
+                                    <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                        alt="">
+                                </a>
+                                <div class="product-content">
+                                    <a href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <a href="">
+                                    <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                        alt="">
+                                </a>
+                                <div class="product-content">
+                                    <a href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swipper-slide-img flex j-between ">
+                                <a href="">
+                                    <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/products/5_3768c619-2b99-4c50-ab23-288a431e93e4_390X468_crop_center.jpg?v=1597496562"
+                                        alt="">
+                                </a>
+                                <div class="product-content">
+                                    <a href="">Supprt Stool multiple</a>
+                                    <div class="price">
+                                        <p class="new-price">
+                                            2.807.104 VND
+                                        </p>
+                                        <p class="old-price">
+                                            3.037.195 VND
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-10">
+                    <div class="section-right">
+                        <div class="section-services-area flex j-center">
+                            <div class="col-md-3">
+                                <div class="flex " style="margin-left: 35px;">
+                                    <div class="icon">
+                                        <a class="rotate-icon" href=""><i class="fas fa-truck "></i></a>
+                                    </div>
+                                    <div class="text">
+                                        <span>Free Delivary</span>
+                                        <p>Orders From All item</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="flex" style="margin-left: 25px;">
+                                    <div class="icon">
+                                        <a class="rotate-icon" href=""><i class="far fa-credit-card"></i></a>
+                                    </div>
+                                    <div class="text">
+                                        <span>Secure Payment</span>
+                                        <p>100% secure payment</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="flex" style="margin-left: 25px;">
+                                    <div class="icon">
+                                        <a class="rotate-icon" href=""><i class="fas fa-comments"></i></a>
+                                    </div>
+                                    <div class="text">
+                                        <span>24/7 Support</span>
+                                        <p>Dedicated support</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div style="border: none; margin-left: 30px;" class="flex">
+                                    <div class="icon">
+                                        <a class="rotate-icon" href="">
+                                            <i class="fas fa-wallet"></i>
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <span>90 Days Return </span>
+                                        <p>If goods have problems</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-popular-departments ">
+                            <div class="slider-popular-departments">
+                                <h2>Popular Departments</h2>
+                                <div class="slider-product flex owl-carousel owl-theme" id="product-slide">
+                                    <div class="item-slide">
+                                        <div class="slide-img">
+                                            <a class="img" href=""><img
+                                                    src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/cete5.jpg?v=1598270633"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <a href="" class="title">Smart TV</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-slide">
+                                        <div class="slide-img">
+                                            <a class="img" href=""><img
+                                                    src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/cat1.jpg?v=1598269862"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <a href="" class="title">Smart Tablate</a>
+                                        </div>
+
+                                    </div>
+                                    <div class="item-slide">
+                                        <div class="slide-img">
+                                            <a class="img" href=""><img
+                                                    src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/cate2.jpg?v=1598270522"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="item-content">
+
+                                            <a href="" class="title">Audiable Audio</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-slide">
+                                        <div class="slide-img">
+                                            <a class="img" href=""><img
+                                                    src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/cate7.jpg?v=1598271100"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <a href="" class="title">Home Aplliances</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-slide">
+                                        <div class="slide-img">
+                                            <a class="img" href=""><img
+                                                    src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/cate6.jpg?v=1598271024"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <a href="" class="title">Cloth</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-slide">
+                                        <div class="slide-img">
+                                            <a class="img" href=""><img
+                                                    src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/cate2.jpg?v=1598270522"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <a href="" class="title">Shoes</a>
+                                        </div>
+                                    </div>
+                                    <div class="item-slide">
+                                        <div class="slide-img">
+                                            <a class="img" href=""><img
+                                                    src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/cate5.jpg?v=1598270883"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <a href="" class="title">Electronic</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="item-slide">
+                                        <div class="slide-img">
+                                            <a class="img" href=""><img
+                                                    src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/cate4.jpg?v=1598270827"
+                                                    alt=""></a>
+                                        </div>
+                                        <div class="item-content">
+                                            <a href="" class="title">Furniture</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="products-area">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="title">
+                                        <h2> Our Products</h2>
+                                    </div>
+                                </div>
+                                <div class="col-sm-8">
+                                    <ul class="categories flex">
+                                        <li><a href="" class="active" data-category="electronic" href="">ELECTRONIC</a>
+                                        </li>
+                                        <li><a href="" data-category="furniture">FURNITURE</a></li>
+                                        <li><a href="" data-category="cloth">CLOTH</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="render-products-area owl-carousel owl-theme">
+
+                        </div>
+
+                        <!-- <div class="products-owl ">
+                            <div style=" margin-left: 10px;" class="" id="render-area">
+
+                            </div>
+
+                        </div> -->
+
+                        <div class="banner-grid row">
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <div class="banner-img">
+                                        <a class="banner-grid-img" href="">
+                                            <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/banner10.jpg?v=1598271469"
+                                                alt="">
+                                        </a>
+                                    </div>
+                                    <div class="banner-grid-content">
+                                        <h3 class="banner-grid-title">Fresh Fruit, Vegetable <br> On Our Product
+                                        </h3>
+                                        <p>Organic Juice</p>
+                                        <a style="margin-left: 24px;" class="btn-shop-now" href="">SHOP NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <div class="banner-img">
+                                        <a class="banner-grid-img" href="">
+                                            <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/banner9.jpg?v=1598271466"
+                                                alt="">
+
+                                        </a>
+                                    </div>
+                                    <div class="banner-grid-content">
+                                        <h3 class="banner-grid-title">Vegetable Eggplant <br> 100% Fresh food</h3>
+                                        <p>Fresh Food</p>
+                                        <a class="btn-shop-now" href="">SHOP NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-trending-products">
+                            <div class="trending-products-title">
+                                <h2>Trending Products</h2>
+                            </div>
+                            <div style="padding:0 10px; margin-left: 10px;" class="owl-carousel owl-theme"
+                                id="render-trending-products">
+
+                            </div>
+                        </div>
+
+                        <div class="recent-news">
+                            <div class="title flex j-between">
+                                <div class="left-text">
+                                    <h2>
+                                        Recent News
+                                    </h2>
+                                </div>
+                                <div class="right-text">
+                                    <a href="" class="btn-view-more">View More</a>
+                                </div>
+                            </div>
+                           
+                            <div class="section-recent-news">
+                                <div class="slider-recent-news owl-carousel owl-theme" id="blog-post">
+                                    <div class="blog-post">
+                                        <div class="img-post">
+                                            <a href="">
+                                                <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/articles/b4_1024x1024.jpg?v=1599211181"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content">
+                                            <div class="post-content-publish flex">
+                                                <h4>Sep 04, 2020</h4>
+                                                <span>2 Comment</span>
+                                            </div>
+                                            <h2 class="post-title">
+                                                <a href="">Load More Product Features</a>
+                                            </h2>
+                                            <p class="post-description">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli.
+                                                Aenean
+                                                commodo ligula eget dolor. ...
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="blog-post">
+                                        <div class="img-post">
+                                            <a href="">
+                                                <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/articles/b3_1024x1024.jpg?v=1599211177"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content">
+                                            <div class="post-content-publish flex">
+                                                <h4>Sep 04, 2020</h4>
+                                                <span>0 Comment</span>
+                                            </div>
+                                            <h2 class="post-title">
+                                                <a href="">Shop Side Bar Filter Tags</a>
+                                            </h2>
+                                            <p class="post-description">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli.
+                                                Aenean
+                                                commodo ligula eget dolor. ...
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="blog-post">
+                                        <div class="img-post">
+                                            <a href="">
+                                                <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/articles/b2_1024x1024.jpg?v=1599211172"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content">
+                                            <div class="post-content-publish flex">
+                                                <h4>Sep 04, 2020</h4>
+                                                <span>2 Comment</span>
+                                            </div>
+                                            <h2 class="post-title">
+                                                <a href="">Product Varient Gellery</a>
+                                            </h2>
+                                            <p class="post-description">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli.
+                                                Aenean
+                                                commodo ligula eget dolor. ...
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="blog-post">
+                                        <div class="img-post">
+                                            <a href="">
+                                                <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/articles/b1_1024x1024.jpg?v=1599211167"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content">
+                                            <div class="post-content-publish flex">
+                                                <h4>Sep 04, 2020</h4>
+                                                <span>0 Comment</span>
+                                            </div>
+                                            <h2 class="post-title">
+                                                <a href="">Ajax Filter Load Items</a>
+                                            </h2>
+                                            <p class="post-description">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli.
+                                                Aenean
+                                                commodo ligula eget dolor. ...
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="blog-post">
+                                        <div class="img-post">
+                                            <a href="">
+                                                <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/articles/Untitled-1_1024x1024.jpg?v=1591438533"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content">
+                                            <div class="post-content-publish flex">
+                                                <h4>May 31, 2020</h4>
+                                                <span>2 Comment</span>
+                                            </div>
+                                            <h2 class="post-title">
+                                                <a href="">This Is Our Collection Of The Best</a>
+                                            </h2>
+                                            <p class="post-description">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli.
+                                                Aenean
+                                                commodo ligula eget dolor. ...
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <div class="blog-post">
+                                        <div class="img-post">
+                                            <a href="">
+                                                <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/articles/blog3_1024x1024.jpg?v=1583242183"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content">
+                                            <div class="post-content-publish flex">
+                                                <h4>Mar 03, 2020</h4>
+                                                <span>1 Comment</span>
+                                            </div>
+                                            <h2 class="post-title">
+                                                <a href="">Load More Product Features</a>
+                                            </h2>
+                                            <p class="post-description">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli.
+                                                Aenean
+                                                commodo ligula eget dolor. ...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="blog-post">
+                                        <div class="img-post">
+                                            <a href="">
+                                                <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/articles/blog1_1024x1024.jpg?v=1583241755"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content">
+                                            <div class="post-content-publish flex">
+                                                <h4>Mar 03, 2020</h4>
+                                                <span>1 Comment</span>
+                                            </div>
+                                            <h2 class="post-title">
+                                                <a href="">Load More Product Features</a>
+                                            </h2>
+                                            <p class="post-description">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli.
+                                                Aenean
+                                                commodo ligula eget dolor. ...
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="blog-post">
+                                        <div class="img-post">
+                                            <a href="">
+                                                <img src="https://cdn.shopify.com/s/files/1/0318/4335/2712/articles/blog2_1024x1024.jpg?v=1583242126"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                        <div class="post-content">
+                                            <div class="post-content-publish flex">
+                                                <h4>Mar 03, 2020</h4>
+                                                <span>1 Comment</span>
+                                            </div>
+                                            <h2 class="post-title">
+                                                <a href="">Load More Product Features</a>
+                                            </h2>
+                                            <p class="post-description">
+                                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit doli.
+                                                Aenean
+                                                commodo ligula eget dolor. ...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="get-latest-deals">
+        <div class="middle">
+            <h2 class="title">
+                Get The Latest Deals
+            </h2>
+            <p class="text">
+                And Receive $20 Coupon For First Shopping
+            </p>
+            <div class="subscribe">
+                <form action="" method="POST" id="contact-form">
+                    <input type="email" class="email" id="email" placeholder="Enter Your Email Address">
+                    <button type="submit" class="btn-subscribe" id="btn-subscribe">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="contact-left">
+                        <div class="img-left">
+                            <a href=""><img
+                                    src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/logo_e2abf572-4917-4190-8e9c-bed56adfbc3f.png?v=1597900279"
+                                    alt=""></a>
+                            <p>Tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat
+                                volutpat.
+                                Nam
+                                dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+                        </div>
+                        <div class="address-contact">
+                            <p>Location</p>
+                            <div class="address-icon flex">
+                                <div class="icon">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <div class="text">
+                                    <span class="">
+                                        7882 Longbranch Rd Reliance GIDC
+                                    </span>
+                                </div>
+                            </div>
+                            <div style="margin-left: 3px;" class="contact-icon flex a-center">
+                                <div class="icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <div class="text">
+                                    <span class="">
+                                        <a href="">+014-33333-8888-6868</a>
+                                    </span>
+                                    <p class="email">
+                                        <a href="">support@spacingtech.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <ul class="footer-list flex">
+                        <div class="col-md-3">
+                            <li>
+
+                                <h2>
+                                    Top Categories
+                                </h2>
+                                <ul class="footer-submenu">
+                                    <li><a href="">Cloth</a></li>
+                                    <li><a href="">Electronic</a></li>
+                                    <li><a href="">Furniture</a></li>
+                                    <li><a href="">Shoes</a></li>
+                                    <li><a href="">Watch</a></li>
+                                    <li><a href="">Jewellery</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div class="col-md-3">
+                            <li>
+
+                                <h2>
+                                    Services
+                                </h2>
+                                <ul class="footer-submenu">
+                                    <li><a href="">About Us</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                    <li><a href="">FAQ's</a></li>
+                                    <li><a href="">Blogs</a></li>
+                                    <li><a href="">Sitemap</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div class="col-md-3">
+                            <li>
+                                <h2>
+                                    Privacy & Terms
+                                </h2>
+                                <ul class="footer-submenu">
+                                    <li><a href="">Payment Policy</a></li>
+                                    <li><a href="">Privacy Policy</a></li>
+                                    <li><a href="">Return Policy</a></li>
+                                    <li><a href="">Shipping Policy</a></li>
+                                    <li><a href="">Terms & Condition</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div class="col-md-3">
+                            <li>
+                                <h2>
+                                    My Account
+                                </h2>
+                                <ul class="footer-submenu">
+                                    <li><a href="">Account</a></li>
+                                    <li><a href="">My Cart</a></li>
+                                    <li><a href="">Order History</a></li>
+                                    <li><a href="">Wishlist</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-content flex">
+                        <div class="col-md-4">
+                            <div class="text">
+                                <p><span><b>COPYRIGHT</b> © 2020 <b> SPACINGTECH </b>RIGHTS RESERVED</span>
+                                </p>
+                            </div>
+                            <!-- <li class="coppy-right"> -->
+                            <!-- </li> -->
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="right">
+                                <!-- <li class="payment-img"> -->
+                                <a href=""><img
+                                        src="https://cdn.shopify.com/s/files/1/0318/4335/2712/files/payments.png?v=1591012221"
+                                        alt=""></a>
+                                <!-- </li> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./dist/js/main.js"></script>
+<script src="./dist/js/render-product.js"></script>
+<script src="./dist/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+
+</html>

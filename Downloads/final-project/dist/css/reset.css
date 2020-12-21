@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,ol{
+	list-style:  none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.a-start{
+	align-items: flex-start;
+}
+
+.flex{
+	display: flex;
+}
+
+.j-center{
+	justify-content: center;
+}
+
+.a-center{
+	align-items: center;
+}
+
+.j-between{
+	justify-content: space-between;
+}
+

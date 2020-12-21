@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,ol{
+	list-style:  none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.a-start{
+	align-items: flex-start;
+}
+
+.flex{
+	display: flex;
+}
+
+.a-center{
+	align-items: center;
+}
+
+.j-center{
+	justify-content: center;
+}
+
+.j-between{
+	justify-content: space-between;
+}
+
+input{
+	outline: none;
+	border: none;
+}
+
+button{
+	background: none;
+	outline: none;
+	border: none;
+}
+
+select{
+	outline: none;
+	border: none;
+	// background: none;
+}
+

@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\fe-template-master"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\cc"
+		}
+	],
+	"settings": {
+		"terminal.integrated.fontSize": 16,
+		"liveServer.settings.multiRootWorkspaceName": "fe-template-master",
+		"editor.fontLigatures": true,
+		"editor.cursorBlinking": "smooth"
+	}
+}
